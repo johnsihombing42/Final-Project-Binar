@@ -143,3 +143,18 @@ POST /auth/register
 ```
 
 ---
+
+`Login User`
+
+```http
+POST /auth/login
+```
+
+##### Example Request Body
+
+```json
+{
+  "email": "johnsihombing80@gmail.com",
+  "password": "tes1234"
+}
+```
