@@ -15,17 +15,6 @@ module.exports = {
         });
       }
 
-      // await Notification.update(
-      //   {
-      //     is_read: true,
-      //   },
-      //   {
-      //     where: {
-      //       user_id: id,
-      //     },
-      //   }
-      // );
-
       return res.status(200).json({
         status: true,
         message: "Success Get Notifications",
