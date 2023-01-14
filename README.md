@@ -103,3 +103,26 @@ POST /auth/login
   "password": "tes1234"
 }
 ```
+
+`Forgot Password`
+
+```http
+POST auth/forgot-password
+```
+
+##### Example Request Body
+
+```json
+{
+  "email": "johnsihombing80@gmail.com"
+}
+```
+
+##### Response
+
+```json
+{
+  "success": true,
+  "message": "Success send email forgot password to user"
+}
+```
