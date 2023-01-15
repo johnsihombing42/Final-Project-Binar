@@ -126,3 +126,27 @@ POST auth/forgot-password
   "message": "Success send email forgot password to user"
 }
 ```
+
+`Reset Password`
+
+```http
+POST auth/change-password?token=
+```
+
+##### Example Request Body
+
+```json
+{
+  "newPassword": "Tes123456",
+  "confirmPassword": "Tes123456"
+}
+```
+
+##### Response
+
+```json
+{
+  "status": true,
+  "message": "password updated successfully"
+}
+```
