@@ -137,8 +137,8 @@ POST auth/change-password?token=
 
 ```json
 {
-  "newPassword": "Tes123456",
-  "confirmPassword": "Tes123456"
+  "newPassword": "Tes12345",
+  "confirmPassword": "Tes12345"
 }
 ```
 
