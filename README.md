@@ -183,7 +183,7 @@ GET /auth/me
 
 ##### Authorization
 
-```json
+```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDgsInVzZXJuYW1lIjoiam9objEyMyIsImVtYWlsIjoiam9obnNpaG9tYmluZzgwQGdtYWlsLmNvbSIsInJvbGUiOiJVc2VyIiwidXNlcl90eXBlIjoiQmFzaWMiLCJpc192ZXJpZmllZCI6MSwiaWF0IjoxNjcxMDAwNjc0fQ.KD0n4-zxDIcTUGFz1kNMw0riJU6Vb8quU224Erruf0I
 ```
 
