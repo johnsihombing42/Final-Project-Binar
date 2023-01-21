@@ -150,3 +150,27 @@ POST auth/change-password?token=
   "message": "password updated successfully"
 }
 ```
+
+`Login Google`
+
+```http
+POST auth/google
+```
+
+##### Example Request Body
+
+```json
+{
+  "access_token": "ya29.a0AeTM1ie-SkXBb65317yime-6KcRflZmerzaYjm3zNYLS9Y5wjk2u-EVluXQj8yr8Xpp5rtQTjcCKYkomi1qzewcJHJsmPWgPN3fLRBzIYcqXlY2nARlIpFHLMz8VRN2fK3UZyRSQhFy8FmZI9HNFACE1tVg3aCgYKAcoSARISFQHWtWOmfJ8BdPCdMrNouJcD0JcWWg0163"
+}
+```
+
+##### Response
+
+```json
+{
+  "status": true,
+  "message": "Success get token",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzQsInVzZXJuYW1lIjoiS29tIEJfSm9obiBUcmkgUHV0cmFfIDA1MCIsImVtYWlsIjoiam9obnRyaXNpaG9tYmluZ0BnbWFpbC5jb20iLCJ1c2VyX3R5cGUiOiJHb29nbGUiLCJpYXQiOjE2NzAwNTY0ODV9.89ueO3ZEKGZL-ihkIVYFkN4rCH1b5Dh_R3k42QHBwZk"
+}
+```
