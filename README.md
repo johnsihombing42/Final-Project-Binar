@@ -174,3 +174,28 @@ POST /auth/google
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzQsInVzZXJuYW1lIjoiS29tIEJfSm9obiBUcmkgUHV0cmFfIDA1MCIsImVtYWlsIjoiam9obnRyaXNpaG9tYmluZ0BnbWFpbC5jb20iLCJ1c2VyX3R5cGUiOiJHb29nbGUiLCJpYXQiOjE2NzAwNTY0ODV9.89ueO3ZEKGZL-ihkIVYFkN4rCH1b5Dh_R3k42QHBwZk"
 }
 ```
+
+`Who Am I`
+
+```http
+GET /auth/me
+```
+
+##### Authorization
+
+```json
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDgsInVzZXJuYW1lIjoiam9objEyMyIsImVtYWlsIjoiam9obnNpaG9tYmluZzgwQGdtYWlsLmNvbSIsInJvbGUiOiJVc2VyIiwidXNlcl90eXBlIjoiQmFzaWMiLCJpc192ZXJpZmllZCI6MSwiaWF0IjoxNjcxMDAwNjc0fQ.KD0n4-zxDIcTUGFz1kNMw0riJU6Vb8quU224Erruf0I
+```
+
+```json
+{
+  "status": true,
+  "message": "successful authentication",
+  "data": {
+    "id": 48,
+    "username": "john123",
+    "email": "johnsihombing80@gmail.com",
+    "role": "User"
+  }
+}
+```
