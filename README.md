@@ -107,7 +107,7 @@ POST /auth/login
 `Forgot Password`
 
 ```http
-POST auth/forgot-password
+POST /auth/forgot-password
 ```
 
 ##### Example Request Body
@@ -130,7 +130,7 @@ POST auth/forgot-password
 `Reset Password`
 
 ```http
-POST auth/change-password?token=
+POST /auth/change-password?=token
 ```
 
 ##### Example Request Body
@@ -154,7 +154,7 @@ POST auth/change-password?token=
 `Login Google`
 
 ```http
-POST auth/google
+POST /auth/google
 ```
 
 ##### Example Request Body
