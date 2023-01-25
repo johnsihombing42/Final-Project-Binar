@@ -202,7 +202,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDgsInVzZXJuYW1lIjoiam9objEyMyIsImV
 
 ## ADMIN
 
-### Create Flight
+### CRUD Flight
 
 `Create Flight`
 
@@ -239,6 +239,42 @@ POST /flight/data
 {
   "status": true,
   "message": "Success create flight",
+  "data": {
+    "id": 12,
+    "code": "QZ787",
+    "airlineIata": "QZ",
+    "airlineLogo": "https://sta.nusatrip.net/static/img/front/V2/icon-flight/QZ.png",
+    "airlineName": "Air Asia",
+    "departureAirport": "Kuala Namu",
+    "departure": "KNO",
+    "arrivalAirport": "Ngurah Rai",
+    "arrival": "DPS",
+    "date": "2022-12-29",
+    "returnDate": null,
+    "capacity": 250,
+    "tripType": "round_trip",
+    "sc": "economy",
+    "departureTime": "14:00:00",
+    "arrivalTime": "16:35:00",
+    "price": 2500000,
+    "updatedAt": "2022-12-28T03:11:32.604Z",
+    "createdAt": "2022-12-28T03:11:32.604Z"
+  }
+}
+```
+
+`Read Flight`
+
+```http
+GET /flight/data
+```
+
+##### Response
+
+```json
+{
+  "status": true,
+  "message": "Success get all flight",
   "data": {
     "id": 12,
     "code": "QZ787",
