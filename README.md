@@ -298,3 +298,36 @@ GET /flight/data
   }
 }
 ```
+
+`Update Flight`
+
+```http
+PUT /flight/data
+```
+
+##### Example Request Body
+
+```json
+{
+  "code": "ID707",
+  "airlineIata": "ID",
+  "airlineName": "Batik Air",
+  "departureAirport": "Denpasar",
+  "departure": "KNO",
+  "arrivalAirport": "Soekarno Hatta",
+  "arrival": "DPS",
+  "date": "2022-12-28",
+  "departureTime": "13:00:00+00",
+  "arrivalTime": "16:00:00+00",
+  "price": "2500000"
+}
+```
+
+##### Response
+
+```json
+{
+  "status": true,
+  "message": "Success update flight"
+}
+```
