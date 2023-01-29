@@ -215,7 +215,7 @@ POST /flight/data
 ```json
 {
 {
-  "code": "QZ787",
+  "code": "QZ707",
   "airlineIata":"QZ",
   "airlineName": "Air Asia",
   "departureAirport": "Kuala Namu",
