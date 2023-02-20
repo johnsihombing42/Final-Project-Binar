@@ -331,3 +331,19 @@ PUT /flight/data
   "message": "Success update flight"
 }
 ```
+
+`Delete Flight`
+
+```http
+DELETE /flight/data/:id
+```
+
+##### Response
+
+```json
+{
+  "status": true,
+  "message": "delete flight success",
+  "data": 1
+}
+```
