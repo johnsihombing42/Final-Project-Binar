@@ -222,7 +222,7 @@ POST /flight/data
   "departure": "KNO",
   "arrivalAirport": "Ngurah Rai",
   "arrival": "DPS",
-  "date": "2022-12-29",
+  "date": "2022-12-30",
   "capacity":250,
   "tripType":"Round_Trip",
   "sc":"Economy",
